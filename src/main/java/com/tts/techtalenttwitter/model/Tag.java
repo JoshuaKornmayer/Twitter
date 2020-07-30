@@ -30,29 +30,39 @@ public class Tag {
     @ManyToMany(mappedBy = "tags")
     private List<Tweet> tweets;
 
-    public Long getId() {
-        return id;
-    }
+    // public Long getId() {
+    // return id;
+    // }
 
-    public String getPhrase() {
-        return phrase;
-    }
+    // public String getPhrase() {
+    // return phrase;
+    // }
 
-    public void setPhrase(String phrase) {
-        this.phrase = phrase;
-    }
+    // public void setPhrase(String phrase) {
+    // this.phrase = phrase;
+    // }
 
-    public List<Tweet> getTweets() {
-        return tweets;
-    }
+    // public List<Tweet> getTweets() {
+    // return tweets;
+    // }
 
-    public void setTweets(List<Tweet> tweets) {
-        this.tweets = tweets;
-    }
+    // public void setTweets(List<Tweet> tweets) {
+    // this.tweets = tweets;
+    // }
 
-    @Override
-    public String toString() {
-        return "Tag [id=" + id + ", phrase=" + phrase + ", tweets=" + tweets + "]";
-    }
+    // @Override
+    // public String toString() {
+    // return "Tag [id=" + id + ", phrase=" + phrase + ", tweets=" + tweets + "]";
+    // }
+
+    // public Tag(Long id, String phrase, List<Tweet> tweets) {
+    // this.id = id;
+    // this.phrase = phrase;
+    // this.tweets = tweets;
+    // }
+
+    // public Tag() {
+
+    // }
 
 }
